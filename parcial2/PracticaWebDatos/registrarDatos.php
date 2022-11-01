@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica de web con bases de datos</title>
+    <title>Pagina 100% oficial - BlockBuster</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-3.6.1.js"></script>
 </head>
@@ -17,28 +17,27 @@
                 <h1>Registrar Usuario</h1><hr>
                 <form method="post" action="guardarDatos.php">
                     <div class="form-group">
-                        <label for="">Nombre:</label>
-                        <input type="text" class="form-control" name="nombre" placeholder="Teclea el nombre">
+                        <label for="">Nombre del producto:</label>
+                        <input type="text" class="form-control" name="nombre_producto" placeholder="Tecle el nombre de su producto">
                     </div>
 
                     <div class="form-group">
-                        <label for="">Edad:</label>
-                        <input type="number" class="form-control" name="edad" placeholder="Teclea la edad">
+                        <label for="">Tipo de producto:</label>
+                        <input type="text" class="form-control" name="tipo_producto" placeholder="Tecle el tipo de su producto">
                     </div>
 
                     <div class="form-group">
-                        <input type="radio" name="sexo" value="1"> Masculino <br>
-                        <input type="radio" name="sexo" value="0"> Femenino
+                        <label for="">Nombre del cliente:</label>
+                        <input type="text" class="form-control" name="nombre_producto" placeholder="Tecle el nombre del cliente que lo compro">
                     </div>
-
                     <div class="form-group">
-                        <label for="">Domicilio:</label>
+                        <label for="">Domicilio del cliente:</label>
                         <textarea name="domicilio" id="" cols="30" rows="10" class="form-control"></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label for="">Fecha de nacimiento:</label>
-                        <input type="date" class="form-control" name="fecha_nacimiento">
+                        <label for="">Fecha de renta/compra:</label>
+                        <input type="date" class="form-control" name="fecha_renta/compra">
                     </div>
                     <div>
                         <input type="submit" class="btn btn-primary" value="Registrar">
@@ -50,7 +49,7 @@
     </div>
     <footer class="text-center">
         <hr>
-        2022 &copy; Cetis107 Desarrollo Web
+        2022 &copy; BlockBusterOFFICIAL
     </footer>
     <script src="js/bootstrap.js"></script>
 </body>
