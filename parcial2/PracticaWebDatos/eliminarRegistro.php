@@ -4,7 +4,7 @@
 
     $id = $_GET["id"];
 
-    $sql = "DELETE FROM usuarios WHERE id=" . $id;
+    $sql = "DELETE FROM usuariosBlockBuster WHERE id=" . $id;
 
     if($conexion->query($sql) === TRUE){
         echo "Se eliminó el registro con ID " .$id. "<br>";
