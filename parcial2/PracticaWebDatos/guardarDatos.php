@@ -9,7 +9,7 @@
     $fecha_rentacompra = $_POST["fecha_renta/compra"];
 
     $sql = "INSERT INTO usuariosBlockBuster (nombre_cliente, tipo_producto, nombre_cliente, domicilio, fecha_renta/compra)". 
-    "VALUES ('".$nombre."', ".$edad.", ".$sexo.", '".$domicilio."', '".$fecha_nacimiento."')";
+    "VALUES ('".$nombreProducto."', ".$tipoProducto.", ".$nombreCliente.", '".$domicilio."', '".$fecha_rentacompra."')";
 
     if($conexion->query($sql) === TRUE){
         echo "Registro guardado con Éxito <a href='consultarDatos.php'>Regresar</a>";
