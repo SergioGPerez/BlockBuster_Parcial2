@@ -2,13 +2,13 @@
 
     include 'conexion.php';
 
-    $nombre = $_POST["nombre"];
-    $sexo = $_POST["sexo"];
-    $edad = $_POST["edad"];
+    $nombreProducto = $_POST["nombre_producto"];
+    $tipoProducto= $_POST["tipo_producto"];
+    $nombreCliente = $_POST["nombre_cliente"];
     $domicilio = $_POST["domicilio"];
-    $fecha_nacimiento = $_POST["fecha_nacimiento"];
+    $fecha_rentacompra = $_POST["fecha_renta/compra"];
 
-    $sql = "INSERT INTO usuarios (nombre, edad, sexo, domicilio, fecha_nacimiento)". 
+    $sql = "INSERT INTO usuariosBlockBuster (nombre_cliente, tipo_producto, nombre_cliente, domicilio, fecha_renta/compra)". 
     "VALUES ('".$nombre."', ".$edad.", ".$sexo.", '".$domicilio."', '".$fecha_nacimiento."')";
 
     if($conexion->query($sql) === TRUE){
