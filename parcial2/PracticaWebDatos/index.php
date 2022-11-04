@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 100% oficial - BlockBuster</title>
+    <title>BlockBuster</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-3.6.1.js"></script>
 </head>
@@ -19,21 +19,21 @@
                     <p class="lead">
                         En esta pagina tendran las siguiente interacciones:
                          <ul>
-                            <li>Registrar</li>
-                            <li>Consultar</li>
-                            <li>Editar</li>
-                            <li>Eliminar</li>
+                            <li>Comprar</li>
+                            <li>Apartar</li>
+                            <li>Rentar</li>
+                            <li>Devolver Producto</li>
                          </ul>
                     </p>
                     <hr class="my-4">
-                    <p>BlockBuster, compra o alquila videojuegos y peliculas.</p>
+                    <p>BlockBuster, compra y alquila videojuegos y peliculas.</p>
                   </div>
             </div>
         </div>
     </div>
     <footer class="text-center">
         <hr>
-        2022 &copy; BluckBusterOFFICIAL
+        2022 &copy; BlockBusterOFFICIAL
     </footer>
     <script src="js/bootstrap.js"></script>
 </body>
