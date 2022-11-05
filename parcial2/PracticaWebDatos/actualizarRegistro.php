@@ -47,7 +47,7 @@
 
                     <div class="form-group">
                         <label for="">Fecha de renta/compra:</label>
-                        <input value="<?php echo $registro["fecha_renta/compra"]; ?>" type="date" class="form-control" name="fecha_nacimiento">
+                        <input value="<?php echo $registro["fecha_rentacompra"]; ?>" type="date" class="form-control" name="fecha_rentacompra">
                     </div>
                     <div>
                         <input type="submit" class="btn btn-primary" value="Registrar">
@@ -59,7 +59,7 @@
     </div>
     <footer class="text-center">
         <hr>
-        2022 &copy; Cetis107 Desarrollo Web
+        2022 &copy; BlockBusterOFFICIAL
     </footer>
     <script src="js/bootstrap.js"></script>
 </body>

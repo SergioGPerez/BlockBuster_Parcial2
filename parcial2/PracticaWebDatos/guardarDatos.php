@@ -6,9 +6,9 @@
     $tipoProducto= $_POST["tipo_producto"];
     $nombreCliente = $_POST["nombre_cliente"];
     $domicilio = $_POST["domicilio"];
-    $fecha_rentacompra = $_POST["fecha_renta/compra"];
+    $fecha_rentacompra = $_POST["fecha_rentacompra"];
 
-    $sql = "INSERT INTO usuariosBlockBuster (nombre_cliente, tipo_producto, nombre_cliente, domicilio, fecha_renta/compra)". 
+    $sql = "INSERT INTO usuariosBlockBuster (nombre_producto, tipo_producto, nombre_cliente, domicilio, fecha_rentacompra)". 
     "VALUES ('".$nombreProducto."', ".$tipoProducto.", ".$nombreCliente.", '".$domicilio."', '".$fecha_rentacompra."')";
 
     if($conexion->query($sql) === TRUE){

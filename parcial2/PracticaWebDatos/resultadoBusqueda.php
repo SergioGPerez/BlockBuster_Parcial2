@@ -24,9 +24,9 @@
         <div class="alert alert-danger">La pagina que usted buscó no se encuentra en nuestra base de datos</div><br><br>
         <a href="consultarDatos.php">Regresar</a>
     <?php } else { 
-        $sql = "SELECT * from usuarios WHERE nombre LIKE '%" . $_GET["termino"] . "%'";
-        $usuarios = $conexion->query($sql);
-        if($usuarios->num_rows == 0) {
+        $sql = "SELECT * from usuariosBlockBuster WHERE nombre_producto LIKE '%" . $_GET["termino"] . "%'";
+        $usuariosBlockBuster = $conexion->query($sql);
+        if($usuariosBlockBuster->num_rows == 0) {
             echo "<br><div class='alert alert-danger'>No existen registros con ese término de búsqueda</div><br><br>";
         } else {
     ?>
@@ -47,7 +47,7 @@
                         <td><?php echo $row["tipo_producto"]; ?></td>
                         <td><?php echo $row["nombre_cliente"]; ?></td>
                         <td><?php echo $row["domicilio"]; ?></td>
-                        <td><?php echo $row["fecha_renta/compra"]; ?></td>
+                        <td><?php echo $row["fecha_rentacompra"]; ?></td>
                         <td>
                             <a href="actualizarRegistro.php?id=<?php echo $row["id"]; ?>" class="btn btn-primary">Editar</a>
                             <a href="eliminarRegistro.php?id=<?php echo $row["id"]; ?>" class="btn btn-danger">Eliminar</a>

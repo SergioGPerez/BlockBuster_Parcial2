@@ -44,7 +44,7 @@
                             <td><?php echo $row["tipo_producto"]; ?></td>
                             <td><?php echo $row["nombre_cliente"]; ?></td>
                             <td><?php echo $row["domicilio"]; ?></td>
-                            <td><?php echo $row["fecha_renta/compra"]; ?></td>
+                            <td><?php echo $row["fecha_rentacompra"]; ?></td>
                             <td>
                                 <a href="actualizarRegistro.php?id=<?php echo $row["id"]; ?>" class="btn btn-primary">Editar</a>
                                 <a href="eliminarRegistro.php?id=<?php echo $row["id"]; ?>" class="btn btn-danger">Eliminar</a>
@@ -62,7 +62,7 @@
     </div>
     <footer class="text-center">
         <hr>
-        2022 &copy; Cetis107 Desarrollo Web
+        2022 &copy; BlockBusterOFFICIAL
     </footer>
     <script src="js/bootstrap.js"></script>
 </body>
