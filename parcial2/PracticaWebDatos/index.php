@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-3.6.1.js"></script>
 </head>
+<style>
+    body{
+        background-color: blue;
+    }
+</style>
 <body>
     <?php include 'menu.php'; ?>
     <br>
