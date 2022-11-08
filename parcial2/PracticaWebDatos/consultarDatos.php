@@ -12,7 +12,7 @@
 
     <?php
       include 'conexion.php';
-      $sql = "select * from usuarios";
+      $sql = "SELECT * FROM usuariosBlockBuster";
       $datos = $conexion->query($sql);
 
     ?>

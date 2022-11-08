@@ -28,7 +28,7 @@
 
                     <div class="form-group">
                         <label for="">Nombre del cliente:</label>
-                        <input type="text" class="form-control" name="nombre_producto" placeholder="Tecle el nombre del cliente que lo compro">
+                        <input type="text" class="form-control" name="nombre_cliente" placeholder="Tecle el nombre del cliente que lo compro">
                     </div>
                     <div class="form-group">
                         <label for="">Domicilio del cliente:</label>
@@ -37,7 +37,7 @@
 
                     <div class="form-group">
                         <label for="">Fecha de renta/compra:</label>
-                        <input type="date" class="form-control" name="fecha_renta/compra">
+                        <input type="date" class="form-control" name="fecha_rentacompra">
                     </div>
                     <div>
                         <input type="submit" class="btn btn-primary" value="Registrar">
